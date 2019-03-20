@@ -1,0 +1,12 @@
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.csprojAssemblyReference.cache
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.csproj.CoreCompileInputs.cache
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.AssemblyInfoInputs.cache
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.AssemblyInfo.cs
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\Opima.CPJ.Application.deps.json
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\Opima.CPJ.Application.dll
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\OpimaCPJ.Domain.dll
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\OpimaCPJ.Domain.pdb
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.csproj.CopyComplete
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\Opima.CPJ.Application.pdb
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.dll
+C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.pdb
