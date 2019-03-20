@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-OpimaCPJ.UI-79DD0F56-4343-4A76-BF93-A717C08E8889</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <AssemblyName>OpimaCPJ.Web</AssemblyName>
+    <RootNamespace>OpimaCPJ.Web</RootNamespace>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Opima.CPJ.Application\Opima.CPJ.Application.csproj" />
+    <ProjectReference Include="..\OpimaCpj.Data\OpimaCpj.Data.csproj" />
+    <ProjectReference Include="..\OpimaCPJ.Domain\OpimaCPJ.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

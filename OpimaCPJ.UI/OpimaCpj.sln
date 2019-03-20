@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpimaCPJ.Web", "OpimaCPJ.UI\OpimaCPJ.Web.csproj", "{2E1C47E5-C7F8-4B2B-8290-76A575B6794C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Dominio", "1-Dominio", "{689E3206-DE29-4C27-A1B4-6DFF2EBBE1E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpimaCPJ.Domain", "OpimaCPJ.Domain\OpimaCPJ.Domain.csproj", "{D052558E-D864-4593-A006-676D62044881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infraestrutura", "2-Infraestrutura", "{004C22D9-9382-462A-9DC4-7A5622FD5C8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpimaCpj.Data", "OpimaCpj.Data\OpimaCpj.Data.csproj", "{6A478146-7325-4AA2-B62A-4B7E1A150B5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Application", "3-Application", "{C153A2DA-D319-40DE-B422-9B49E847EE38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opima.CPJ.Application", "Opima.CPJ.Application\Opima.CPJ.Application.csproj", "{ECEB3738-8502-4E4A-B69A-65ED7A37FABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1C47E5-C7F8-4B2B-8290-76A575B6794C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1C47E5-C7F8-4B2B-8290-76A575B6794C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1C47E5-C7F8-4B2B-8290-76A575B6794C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1C47E5-C7F8-4B2B-8290-76A575B6794C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D052558E-D864-4593-A006-676D62044881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D052558E-D864-4593-A006-676D62044881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D052558E-D864-4593-A006-676D62044881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D052558E-D864-4593-A006-676D62044881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A478146-7325-4AA2-B62A-4B7E1A150B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A478146-7325-4AA2-B62A-4B7E1A150B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A478146-7325-4AA2-B62A-4B7E1A150B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A478146-7325-4AA2-B62A-4B7E1A150B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEB3738-8502-4E4A-B69A-65ED7A37FABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEB3738-8502-4E4A-B69A-65ED7A37FABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEB3738-8502-4E4A-B69A-65ED7A37FABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEB3738-8502-4E4A-B69A-65ED7A37FABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D052558E-D864-4593-A006-676D62044881} = {689E3206-DE29-4C27-A1B4-6DFF2EBBE1E2}
+		{6A478146-7325-4AA2-B62A-4B7E1A150B5D} = {004C22D9-9382-462A-9DC4-7A5622FD5C8D}
+		{ECEB3738-8502-4E4A-B69A-65ED7A37FABD} = {C153A2DA-D319-40DE-B422-9B49E847EE38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6E0915E-62D3-473C-B052-62ED803F1342}
+	EndGlobalSection
+EndGlobal
