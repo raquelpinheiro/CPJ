@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using OpimaCPJ.Web.Data;
 using OpimaCpj.Data.Context;
 using OpimaCPJ.Domain;
 using OpimaCPJ.Domain.Interfaces;

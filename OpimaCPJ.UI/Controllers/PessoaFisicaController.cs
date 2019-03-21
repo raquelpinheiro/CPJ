@@ -8,16 +8,23 @@ using Microsoft.EntityFrameworkCore;
 using OpimaCPJ.Domain;
 using OpimaCpj.Data.Context;
 using Opima.CPJ.Application.Interfaces;
+using Opima.CPJ.Application.ViewModel;
+using Opima.CPJ.Application.Services;
+using OpimaCPJ.Domain.Interfaces.Repository;
+using AutoMapper;
 
 namespace OpimaCPJ.Web.Controllers
 {
     public class PessoaFisicaController : Controller
     {
-        private readonly IPessoaFisicaAppService _context;
+        private readonly IPessoaFisicaAppService _context = null;
+        private readonly OpimaCpjContext _contextBd = null;
+        private readonly IMapper _mapper;
 
-        public PessoaFisicaController(IPessoaFisicaAppService context)
-        {
-            _context = context;
+        public PessoaFisicaController(OpimaCpjContext contextBd, IMapper mapper)
+        {  
+            _mapper = mapper;
+            _context = new PessoaAppService(contextBd, mapper);
         }
 
         // GET: PessoaFisica
@@ -25,9 +32,11 @@ namespace OpimaCPJ.Web.Controllers
         {
             // return View(await _context.PessoaFisica.ToListAsync());
 
-            var task = Task.Run(() => { return _context.ObterTodos(); });
+            IEnumerable<PessoaFisicaViewModel> lista =
+             await Task.Run<IEnumerable<PessoaFisicaViewModel>>(() => { 
+                         return _context.ObterTodos(); });
 
-            return View(await task);
+            return View(lista);
         }
 
         // GET: PessoaFisica/Details/5
@@ -57,18 +66,25 @@ namespace OpimaCPJ.Web.Controllers
         // POST: PessoaFisica/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> Create([Bind("TelefoneResidencial,TelefoneCelular,Nome,DataNascimento,Sexo,Profissao,Nacionalidade,Email,NomePai,NomeMae,DataCadastro,Cpf,NumeroOAB,Codigo")] PessoaFisica pessoaFisica)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        _context.Add(pessoaFisica);
-        //        await _context.SaveChangesAsync();
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    return View(pessoaFisica);
-        //}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("TelefoneResidencial,TelefoneCelular,Nome,DataNascimento,Sexo,Profissao,Nacionalidade,Email,NomePai,NomeMae,DataCadastro,Cpf,NumeroOAB,Codigo")] PessoaFisicaViewModel pessoaFisica)
+        {
+
+            PessoaFisicaViewModel pessoa = null;
+
+            if (ModelState.IsValid)
+            {
+                pessoa =  await Task.Run<PessoaFisicaViewModel>(() => {  
+                 
+                 return _context.Adicionar(pessoaFisica);
+                  
+                  });
+                
+                return RedirectToAction(nameof(Index));
+            }
+            return View(pessoa);
+        }
 
         //// GET: PessoaFisica/Edit/5
         //public async Task<IActionResult> Edit(int? id)

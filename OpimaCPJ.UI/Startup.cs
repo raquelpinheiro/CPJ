@@ -20,6 +20,8 @@ using Opima.CPJ.Application.Interfaces;
 using OpimaCPJ.Domain.Interfaces.Repository;
 using OpimaCpj.Data.Repository;
 using OpimaCPJ.Domain;
+using Opima.CPJ.Application.AutoMapper;
+using AutoMapper;
 
 namespace OpimaCPJ.Web
 {
@@ -42,26 +44,50 @@ namespace OpimaCPJ.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            /* 
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("LocalConnection")));
+            /*
+            // Auto Mapper Configurations
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
 
-            services.AddDbContext<CPJContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LocalConnection")));
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
             */
-
+            
+            services.AddAutoMapper();
+           
             var connString = Configuration.GetConnectionString("LocalConnection");
-            services.AddDbContext<OpimaCpjContext>(options =>
-                    options.UseSqlServer(connString, b => b.MigrationsAssembly("OpimaCPJ.Web")));
 
+            /*
+            services.AddEntityFrameworkSqlServer().
+                    AddDbContext<OpimaCpjContext>(options => 
+                            options.UseSqlServer(connString, b => b.MigrationsAssembly("OpimaCPJ.Web"));
+                    }, ServiceLifetime.Scoped );
+             */
+           
+            services.AddEntityFrameworkSqlServer()
+                .AddDbContext<OpimaCpjContext>(options =>
+                {
+                    options.UseSqlServer(connString,
+                                        sqlOptions => sqlOptions.MigrationsAssembly("OpimaCPJ.Web"));
+                },
+                ServiceLifetime.Scoped // Note that Scoped is the default choice
+                                        // in AddDbContext. It is shown here only for
+                                        // pedagogic purposes.
+                );
+            
+            services.AddDbContext<ApplicationDbContext>(options =>
+                    options.UseSqlServer(connString, b => b.MigrationsAssembly("OpimaCPJ.Web")));                    
+            
             // registro de injecao de dependência
             services.AddScoped<IPessoaFisicaAppService, PessoaAppService>();
-            services.AddScoped<IRepository<PessoaFisica>, Repository<PessoaFisica>>();
-
+            //services.AddScoped<IRepositoryPessoaFisica, RepositoryPessoaFisica>();
+            
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-
+        
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
