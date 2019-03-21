@@ -15,6 +15,9 @@ namespace OpimaCpj.Data.EntityConfig
 
             builder.HasKey(c => c.Codigo);
 
+            builder.HasMany(c => c.Enderecos)
+                        .WithOne(e => e.Pessoa);
+
         }
     }
 }

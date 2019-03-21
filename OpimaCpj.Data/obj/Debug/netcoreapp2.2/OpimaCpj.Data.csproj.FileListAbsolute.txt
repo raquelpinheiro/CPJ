@@ -38,3 +38,17 @@ C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\OpimaCpj.Data
 C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\OpimaCpj.Data\bin\Debug\netcoreapp2.2\OpimaCPJ.Domain.dll
 C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\OpimaCpj.Data\bin\Debug\netcoreapp2.2\OpimaCPJ.Domain.pdb
 C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\OpimaCpj.Data\obj\Debug\netcoreapp2.2\OpimaCpj.Data.csproj.CopyComplete
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\obj\Debug\netcoreapp2.2\OpimaCpj.Data.dll
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\obj\Debug\netcoreapp2.2\OpimaCpj.Data.pdb
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\obj\Debug\netcoreapp2.2\OpimaCpj.Data.csprojAssemblyReference.cache
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\obj\Debug\netcoreapp2.2\OpimaCpj.Data.csproj.CoreCompileInputs.cache
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\obj\Debug\netcoreapp2.2\OpimaCpj.Data.AssemblyInfoInputs.cache
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\obj\Debug\netcoreapp2.2\OpimaCpj.Data.AssemblyInfo.cs
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\bin\Debug\netcoreapp2.2\OpimaCpj.Data.deps.json
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\bin\Debug\netcoreapp2.2\OpimaCpj.Data.runtimeconfig.json
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\bin\Debug\netcoreapp2.2\OpimaCpj.Data.runtimeconfig.dev.json
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\bin\Debug\netcoreapp2.2\OpimaCpj.Data.dll
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\bin\Debug\netcoreapp2.2\OpimaCpj.Data.pdb
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\bin\Debug\netcoreapp2.2\OpimaCPJ.Domain.dll
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\bin\Debug\netcoreapp2.2\OpimaCPJ.Domain.pdb
+D:\Documentos\Estudos\AspNetCore\CPJ-master\OpimaCpj.Data\obj\Debug\netcoreapp2.2\OpimaCpj.Data.csproj.CopyComplete

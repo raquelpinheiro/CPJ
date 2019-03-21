@@ -19,9 +19,9 @@ namespace OpimaCpj.Data.Repository
         protected OpimaCpjContext Db;
         protected DbSet<T> DbSet;
 
-        protected Repository(OpimaCpjContext context)
+        protected Repository(OpimaCpjContext _context)
         {
-            Db = context;
+            Db = _context;
             DbSet = Db.Set<T>();
         }
 
