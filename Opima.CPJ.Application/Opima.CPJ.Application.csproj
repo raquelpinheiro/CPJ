@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OpimaCPJ.Domain\OpimaCPJ.Domain.csproj" />
+    <ProjectReference Include="..\OpimaCpj.Data\OpimaCpj.Data.csproj" />
   </ItemGroup>
 
 </Project>

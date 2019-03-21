@@ -11,11 +11,13 @@ namespace Opima.CPJ.Application.AutoMapper
     {
         public static void RegisterMappings()
         {
+           
             Mapper.Initialize(x => 
                         {
-                            x.AddProfile<DomainToViewModelMappingProfile>();
+                            x.AddProfile<MappingProfile>();
                             //x.AddProfile<ViewModelToDomainMappingProfile>();
                         });
+           
         }
     }
 }

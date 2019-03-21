@@ -10,3 +10,17 @@ C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.App
 C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\Opima.CPJ.Application.pdb
 C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.dll
 C:\Users\casa\Documents\Projetos\Advogados\OpimaCpj-v2\OpimaCpj-v2\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.pdb
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.dll
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.pdb
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\Opima.CPJ.Application.deps.json
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\Opima.CPJ.Application.dll
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\Opima.CPJ.Application.pdb
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\OpimaCPJ.Domain.dll
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\OpimaCPJ.Domain.pdb
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.csprojAssemblyReference.cache
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.csproj.CoreCompileInputs.cache
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.AssemblyInfoInputs.cache
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.AssemblyInfo.cs
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\obj\Debug\netcoreapp2.2\Opima.CPJ.Application.csproj.CopyComplete
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\OpimaCpj.Data.dll
+D:\Documentos\Estudos\AspNetCore\CPJ-master\Opima.CPJ.Application\bin\Debug\netcoreapp2.2\OpimaCpj.Data.pdb
